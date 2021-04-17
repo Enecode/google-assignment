@@ -1,0 +1,120 @@
+body {
+  display: block;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav img {
+  height: 20px;
+}
+
+.image-icon {
+  border-radius: 20px;
+}
+
+main {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+div {
+  display: block;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+div img {
+  border-radius: 50%;
+}
+
+.gbutton {
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+button {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.google-service {
+  display: inline-block;
+  line-height: 28px;
+  justify-content: space-around;
+}
+
+.google-service a {
+  padding: 0 3px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.foot2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.foott3 {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.foott3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+}
+a.ab {
+  color: #70757a;
+}
+.ab {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
+.carbor {
+  order: 2;
+}
+.carbor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.foot3 {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+}
+
+.foot3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
